@@ -12,13 +12,13 @@ const outfit = Outfit({ weight: "400", subsets: ["latin"] });
 
 export default function AboutCard({ name, icon }) {
   return (
-    <div className=" mr-24 sm:mt-[300px]  mt-24 mb-[300px]">
+    <div className=" mr-24 xs:mt-[100px] 2xs:mt-[200px] sm:mt-[300px] md:mt-[100px]  mt-24 mb-[200px] md:mb-[500px]">
       <div className="flex ">
         
         
         <div className="flex flex-col">
         <Image src={circle}  className="z-0 hidden md:flex  absolute w-[400px] xl:w-[500px] "></Image>
-          <div className="md:w-60 w-32 h-32 md:h-44 backdrop-blur-2xl absolute mt-[-100px] md:mt-[230px] right-[45%]  md:right-[400px] mx-10 my-10 flex justify-center items-center rounded-2xl border border-slate-500 border-opacity-30">
+          <div className="md:w-60 w-32 h-32 md:h-44 backdrop-blur-2xl absolute mt-[-100px] md:mt-[200px] right-[45%]  md:right-[400px] mx-10 my-10 flex justify-center items-center rounded-2xl border border-slate-500 border-opacity-30">
             <Image src={blue} className="z-0 mb-12 absolute"></Image>
             <div className="flex-col justify-start items-center gap-5 inline-flex">
               <div className="w-11 h-11 relative">
@@ -37,7 +37,7 @@ export default function AboutCard({ name, icon }) {
               </div>
             </div>
           </div>
-          <div className="md:w-60 w-32 h-32 md:h-44 backdrop-blur-2xl absolute mt-[-300px] right-[45%]  md:mt-[-30px] md:right-[400px]  mx-10 my-10 flex justify-center items-center rounded-2xl border border-slate-500 border-opacity-30">
+          <div className="md:w-60 w-32 h-32 md:h-44 backdrop-blur-2xl absolute mt-[-300px] right-[45%]  md:mt-[0px] md:right-[400px]  mx-10 my-10 flex justify-center items-center rounded-2xl border border-slate-500 border-opacity-30">
             <Image src={yellow} className="z-10 absolute"></Image>
             <div className="flex-col justify-start items-center gap-5 inline-flex">
               <div className="w-11 h-11 relative">
@@ -54,7 +54,7 @@ export default function AboutCard({ name, icon }) {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="md:w-60 w-32 h-32 md:h-44 backdrop-blur-2xl absolute mt-0 right-[5%] md:right-[120px] mx-10 my-10 flex justify-center items-center rounded-2xl border border-slate-500 border-opacity-30">
+          <div className="md:w-60 w-32 h-32 md:h-44 backdrop-blur-2xl absolute mt-0 right-[5%] md:mt-[300px] md:right-[100px] mx-10 my-10 flex justify-center items-center rounded-2xl border border-slate-500 border-opacity-30">
             <Image src={green} className="z-0 mb-12 absolute"></Image>
             <div className="flex-col justify-start items-center gap-5 inline-flex">
               <div className="w-11 h-11 relative">
@@ -69,7 +69,7 @@ export default function AboutCard({ name, icon }) {
               </div>
             </div>
           </div>
-          <div className="md:w-60 w-32 h-32 md:h-44 md:p-0 p-8 backdrop-blur-2xl absolute  mt-[-200px] right-[5%] md:right-[120px]  mx-10 my-10 flex justify-center items-center rounded-2xl border border-slate-500 border-opacity-30">
+          <div className="md:w-60 w-32 h-32 md:h-44 md:p-0 p-8 backdrop-blur-2xl absolute md:mt-[100px] mt-[-200px] right-[5%] md:right-[100px]  mx-10 my-10 flex justify-center items-center rounded-2xl border border-slate-500 border-opacity-30">
             <Image src={orange} className="z-10 absolute"></Image>
             <div className="flex-col justify-start items-center gap-5 inline-flex">
               <div className="w-11 h-11 relative">
