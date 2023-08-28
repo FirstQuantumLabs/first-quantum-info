@@ -10,8 +10,8 @@ export default function About({id}) {
       <div id={id} className="z-10 md:ml-[100px] text-[50px] md:text-[70px] px-8 text-white h-screen flex flex-col lg:w-1/2 justify-center items-center ">
         <div className={saira.className}>
           About Us
-          <div className="text-white  text-lg font-normal capitalize leading-7">
-          We are a product as well as service-based , company energetic and driven to be the best in We are committed to Blockchain Technology and Blockchain. using its versatility in creating innovative solutions for real-world challenges. We aim to harness its potential in offering indispensable interoperability within various industries.
+          <div className="text-white  text-lg font-normal leading-7">
+          At First Quantum Labs, we're not just a company – we're architects of change. Our dedicated team of experts combines unrivaled technical prowess with visionary thinking, crafting bespoke blockchain solutions that cater to the unique needs of businesses across the spectrum.
           </div>
         </div>
       </div>

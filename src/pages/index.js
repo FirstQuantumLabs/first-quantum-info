@@ -10,7 +10,7 @@ import orange from "../../public/assets/orange.png";
 import green from "../../public/assets/green.png";
 import blue from "../../public/assets/blue.png";
 import circle from "../../public/assets/cricle.png";
-import wave2  from "../../public/assets/wave2.png";
+import wave2 from "../../public/assets/wave2.png";
 
 import Navbar from "@/components/navbar";
 import Services from "@/containers/Services";
@@ -29,10 +29,11 @@ export default function Home() {
         <div className="z-10 ml-[100px] text-[50px] md:text-[70px]  text-white h-screen pb-[200px] flex flex-col w-1/3 justify-center items-center ">
           <div className={saira.className}>
             Blockchain Technology & Solutions
-            <div className="text-white text-lg font-normal capitalize leading-7">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua ut
-              dolor sit
+            <div className="text-white text-lg font-normal leading-7">
+              In a world driven by constant technological evolution, First Quantum Labs stands as your beacon of innovation in the realm of
+              blockchain solutions. As a trailblazer in harnessing the immense
+              potential of blockchain technology, we redefine possibilities,
+              enhance security, and revolutionize industries.
             </div>
           </div>
         </div>
@@ -71,9 +72,7 @@ export default function Home() {
           className=" md:w-[500px] sm:w-[300px] w-[150px] flex left-[0px] md:top-[250px] top-[100px] absolute "
         ></Image>
 
-       
         <Image
-      
           src={wave2}
           className="flex left-[0px] md:top-[4000px] top-[2500px] absolute z-0 "
         ></Image>
