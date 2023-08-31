@@ -2,11 +2,15 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <div>
-    <Head>
+    <Html lang="en">  <title>First Quantum Labs</title>
+      <Head>
       <link rel="shortcut icon" href="/favicon.ico" />
-    </Head>
-    // Other layout/components
-  </div>
+    
+      </Head>
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
   )
 }
